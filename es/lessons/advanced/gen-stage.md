@@ -279,7 +279,7 @@ Ahora que hemos cubierto `GenStage` y construimos nuestra primera aplicación de
 Podemos producir eventos desde una base de datos o incluso desde otra fuente como Apache's Kafka.
 Con una combinación de productor-consumidor y consumidores podríamos procesar, ordenar, catalogar y guardar métricas tan pronto como estén disponibles.
 
-+ Cola de trabajo - Dado que los eventos puedes ser cualquier cosa podríamos producir cargas de trabajo para ser completadas por una serie de consumidores.
++ Cola de trabajo - Dado que los eventos pueden ser cualquier cosa podríamos producir cargas de trabajo para ser completadas por una serie de consumidores.
 
 + Procesamiento de eventos - Similar al *pipeline* de datos, podríamos recibir, procesar, ordenar y tomar acción sobre los eventos emitidos en tiempo real desde nuestras fuentes.
 
